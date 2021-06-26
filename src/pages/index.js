@@ -4,8 +4,9 @@ import App from '../components/App';
 import { headData } from '../mock/data';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../style/main.scss';
+import { hot } from 'react-hot-loader/root'
 
-export default () => {
+export default hot(() => {
   const { title, lang, description } = headData;
 
   return (
@@ -19,4 +20,4 @@ export default () => {
       <App />
     </>
   );
-};
+});
