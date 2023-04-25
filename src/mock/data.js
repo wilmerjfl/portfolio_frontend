@@ -18,14 +18,13 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   img: 'profile.jpg',
-  paragraphOne: `I'm Wil`,
+  paragraphOne: `I'm Wil.`,
   paragraphTwo: 'A skilled Ssr software engineer with a strong background in Java and NodeJS.'
           + ' I have a passion for coding and constantly strive to improve my skills,'
           + ' staying up to date with the latest technologies and development methodologies.'
           + ' One of my favorite things to do is to mentor and teach other developers.'
           + ' I find it extremely rewarding to share my knowledge and experience,'
           + ' helping others improve their coding skills and become better engineers.',
-  paragraphThree: '',
   resume: 'https://www.linkedin.com/in/wilmerjfl', // if no resume, the button will not show up
 };
 
